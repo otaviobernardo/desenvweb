@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, #bfd6e6, #5f9bd3);
+}
+
+header {
+    background-image: url(images/banner2.webp);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 60px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+a {
+    margin: 0 15px;
+}
+
+p > a {
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+p > a:hover {
+    color: #ffd300;
+    text-decoration: underline;
+    transition: 0.7s;
+}
+/* Contêiner pai para carrossel e formulário */
+.container-content {
+    display: flex; /* Alinhamento flexível */
+    justify-content: space-around; /* Espaço entre os elementos */
+    align-items: center; /* Centralizar verticalmente */
+    padding: 20px;
+}
+
+/* Ajustes para o carrossel */
+.carrossel {
+    width: 600px;
+    height: 450px;
+}
+
+/* Estilo do formulário */
+.mb-3 {
+    background-color: #4d82b4;
+    padding: 30px;
+    color: #fff;
+    width: 710px;
+    height: 510px;
+    box-shadow: 5px 5px 5px #000;
+    border-radius: 20px;
+    
+}
+
+footer {
+    position: fixed; /* Fixa o footer na parte inferior */
+    bottom: 0; /* Posiciona no final da página */
+    left: 0; /* Alinha o footer à esquerda */
+    width: 100%; /* Ocupa toda a largura da página */
+    background-color: #4b4b4b; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+    z-index: 1000; /* Garante que o footer fique sobre outros elementos */
+}
+
+.container-iframe {
+    width: 600px; /* Largura do iframe */
+    margin: auto; /* Centraliza horizontalmente */
+    margin-top: 20px;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.formulario h4 {
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario {
+    text-align: left; /* Garante que o conteúdo da div esteja à esquerda */
+    padding: 20px;
+}
